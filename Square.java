@@ -7,7 +7,7 @@ public class Square {
         int area = side * side;
         System.out.println("Area of square" +area);
 
-        
+        sc.close();
 
     }
     

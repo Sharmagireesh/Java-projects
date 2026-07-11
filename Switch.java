@@ -24,6 +24,7 @@ public class Switch {
                 break;
 
         }
+        sc.close();
     }
     
 }

@@ -18,6 +18,7 @@ public class IncomeTax{
             System.out.println("Total Tax" + Tax);
 
         }
+        sc.close();
 
 
     }

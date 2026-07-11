@@ -34,6 +34,7 @@ public class Calculator {
                 System.out.println("Oops !");
                 break;
         }
+        sc.close();
     }
     
 }

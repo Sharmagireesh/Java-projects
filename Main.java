@@ -9,18 +9,22 @@ public class Main{
         }else if(n==2){
                 System.out.println("2 is a prime no");
         }
+        boolean isPrime = true;
         for(int i=2; i<n; i++){
             if(n%i==0){
-                System.out.println("not a prime no");
-                break;
-            }else {
-                System.out.println("prime no");
+                isPrime = false;
                 break;
             }
-
-            
-
         }
+        
+        if(isPrime){
+            System.out.println("prime no");
+        }else{
+            System.out.println("not a prime no");
+        }
+        
+        scanner.close();
+        
 
     }
 }

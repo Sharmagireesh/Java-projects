@@ -10,6 +10,7 @@ public class Type_conversion {
         float c = sc.nextFloat();
         int d = (int)c;
         System.out.println("The value of d is: " + d);
+        sc.close();
 
 
     }
